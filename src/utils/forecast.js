@@ -17,7 +17,8 @@ const forecast=(lat,long,callback)=>{
             body.current.temperature +
              " degress out. There is " +
             body.current.precip +
-             "% chance of rain");
+             "% chance of rain."+
+             "Humidity : "+body.current.humidity);
         }
     })
 }
