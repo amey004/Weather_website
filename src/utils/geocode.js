@@ -2,7 +2,7 @@ const request=require('request')
 
 
 const geocode = (address, callback) => {
-  const str = pk.eyJ1IjoiYW1leTQ5NyIsImEiOiJja2htMDQzc20wYW9jMndxcXJ6OTllMGo1In0.FGiBqt1X-vZ6b4yZA76caQ&limit=1;
+  str = pk.eyJ1IjoiYW1leTQ5NyIsImEiOiJja2htMDQzc20wYW9jMndxcXJ6OTllMGo1In0.FGiBqt1X-vZ6b4yZA76caQ&limit=1;
   const url =
     "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
     encodeURIComponent(address) +
